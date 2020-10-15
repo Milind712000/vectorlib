@@ -1,3 +1,5 @@
+// author Kumar Harsh b18066
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
