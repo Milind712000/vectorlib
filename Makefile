@@ -7,7 +7,7 @@ OBJ = vecmain.o vecadd.o vecprod.o vecangle.o vecdot.o vecnorm.o
 		$(CC) $(CFLAGS) -c -o $@ $<
 
 final.o: $(OBJ)
-		gcc $(CFLAGS) -o $@ $^
+		gcc $(CFLAGS) -lm -o $@ $^
 
 clean:
 	rm *.o
